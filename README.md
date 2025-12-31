@@ -17,3 +17,6 @@ This is split - off functionality from another addon I will release in the futur
 *Disclaimer: There are many weakauras that are doing pretty much the same, I'm just not much of a weakaura person and already had the code implemented into another addon, so it was easier for me to do this as an addon instead of a weakaura. If you prefer to use a weakaura for cooldown tracking, there is one on the Ascension Database: https://db.ascension.gg/?weakaura=1243.rev:1*
 
 <img width="1393" height="804" alt="grafik" src="https://github.com/user-attachments/assets/68a1861a-1bf7-424d-94ea-bcfe4707f0c9" />
+
+
+<img width="1687" height="832" alt="grafik" src="https://github.com/user-attachments/assets/9a797f76-40b2-4436-824f-66a207795f24" />
