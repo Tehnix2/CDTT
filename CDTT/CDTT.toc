@@ -1,0 +1,16 @@
+## Title: CDTT v0.13
+## Name: CDTT
+## Version: 0.13
+## Author: Tehnix
+## Interface: 30300
+## SavedVariables: CDTT_Core_Settings
+Data.lua
+Core.lua
+Utils.lua
+UI.lua
+SpellConfig.lua
+CategoryFrames.lua
+Messager.lua
+Bars.lua
+CD_Request.lua
+Simulation.lua

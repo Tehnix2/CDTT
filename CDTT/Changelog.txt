@@ -1,0 +1,43 @@
+CDTT - v0.13
+
+- Category frame width and heigth are no longer getting stored in saved variables.
+- Added code to cleanup leftover width and heigth category frame values from older versions.
+- Fixed an issue that made category frames not properly save their y - coordinate when that
+  specific category frame had a scale different from 1.
+- Added a button to delete saved profiles.
+- When Combat Log Mode is enabled, you can now additionally also enable tracking group/raid 
+  members only.
+- Changed the READY text from cooldown bars to just R.
+- Removed a couple old spell-request debug prints.
+- Shortened the CCDT load message.
+- Improved Addon performance.
+- Added a bar customization panel, where bar texture, font, font size and color can be adjusted.
+  These customizations should persist through reloads and logouts. This is experimental as of now.
+
+
+CDTT - v0.12
+- Combat Log Mode is now enabled by default.
+- Added mouseover tooltip explaination to the combat log mode selector.
+- Added two new slash commands: /cdreset resets all tracked spells to READY, /cdclear clears all
+  currently shown spells.
+- Mouse overing a checkbox in the Configure Tracked Spells panel now shows the spell tooltip.
+  This also lets you see which spells are mystic enchants and which are base class abilities.
+  This tooltip is appended with CDTT information.
+- Added a Profile system to the Configure Tracked Spells panel. You can now save and load
+  various different kind of different tracked spell profiles. These are persistent through
+  reloads and logouts.
+- Removed category frame resize grips.
+  
+
+
+
+CDTT - v0.11
+Baseline Cooldown Tracking Addon with two seperate modes - combatlog - and addon - based tracking.
+Tracked spells can be configured and shown within 8 seperate category frames (A - H).
+Category frames can be positioned wherever the player feels like and can have variable sizes.
+Clicking on a cooldown bar sends a spell request to the player who casted the cooldown spell.
+Leftclick means you want this player to use the spell NOW, right click means you want the spell
+in X seconds, where X can be set in the menu (/cd ingame). A spell request makes a frame appear
+on the receiving players side, sends an ingame chat message to that player and also shows a 
+raidframe overlay on the sending player for the receicing player. This is only tested with
+ascensions' default raid frames for now.
